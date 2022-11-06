@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0c5486f3-ac8b-4d2b-8831-f9f515fef768": {
+      "ProjectGuid": "0c5486f3-ac8b-4d2b-8831-f9f515fef768",
+      "DisplayName": "Parsis.Predicate.Sdk",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

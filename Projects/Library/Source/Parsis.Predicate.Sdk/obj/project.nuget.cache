@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "MpAuSzDnmOUwSMNRtlC4jmms5ZNDHTyHPe7wC61ZGXg4MLv5a46oloz+6np3GhhndWalhPAGn5rl3n4V7dGyMw==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Parsis\\Parsis.Predicate.Sdk\\Projects\\Library\\Source\\Parsis.Predicate.Sdk\\Parsis.Predicate.Sdk.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Amir\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.caching.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Amir\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0-rc.2.22472.3\\microsoft.extensions.caching.memory.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Amir\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.dependencyinjection.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Amir\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.logging.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Amir\\.nuget\\packages\\microsoft.extensions.options\\7.0.0-rc.2.22472.3\\microsoft.extensions.options.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Amir\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-rc.2.22472.3\\microsoft.extensions.primitives.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Amir\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0-rc.2.22472.3\\microsoft.win32.systemevents.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Amir\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0-rc.2.22472.3\\system.configuration.configurationmanager.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Amir\\.nuget\\packages\\system.drawing.common\\7.0.0-rc.2.22472.3\\system.drawing.common.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Amir\\.nuget\\packages\\system.runtime.caching\\7.0.0-rc.2.22472.3\\system.runtime.caching.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Amir\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Amir\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0-rc.2.22472.3\\system.security.cryptography.protecteddata.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Amir\\.nuget\\packages\\system.security.permissions\\7.0.0-rc.2.22472.3\\system.security.permissions.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\Amir\\.nuget\\packages\\system.windows.extensions\\7.0.0-rc.2.22472.3\\system.windows.extensions.7.0.0-rc.2.22472.3.nupkg.sha512"
+  ],
+  "logs": []
+}
