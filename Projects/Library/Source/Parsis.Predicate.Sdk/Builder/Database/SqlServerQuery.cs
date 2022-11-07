@@ -1,9 +1,9 @@
 ﻿using Parsis.Predicate.Sdk.Helper;
 
-namespace Parsis.Predicate.Sdk.Generator.Database;
-public class MsSqlQuery<TObject> : DatabaseQuery<TObject> where TObject : class
+namespace Parsis.Predicate.Sdk.Builder.Database;
+public class SqlServerQuery<TObject> : DatabaseQuery<TObject> where TObject : class
 {
-    protected override DatabaseQueryContext DatabaseQueryContext => DatabaseQueryContextHelper.GenerateDatabaseQueryContext(typeof(TObject));
+    protected override DatabaseQueryContext DatabaseQueryContext => DatabaseQueryContextHelper.GenerateSqlServerQueryContext(typeof(TObject));
 
     public override Task GenerateColumn()
     {

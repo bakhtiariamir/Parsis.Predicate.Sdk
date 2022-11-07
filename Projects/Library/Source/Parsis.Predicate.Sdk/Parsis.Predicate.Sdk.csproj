@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Generator\Database\MySqlQuery.cs" />
-    <Compile Remove="Generator\Database\OracleQuery.cs" />
+    <Compile Remove="Builder\Database\MySqlQuery.cs" />
+    <Compile Remove="Builder\Database\OracleQuery.cs" />
   </ItemGroup>
 
   <ItemGroup>

@@ -8,16 +8,12 @@ public abstract class DatabaseObjectInfo<TObject> : ObjectInfo<TObject>, IDataba
     public string Table
     {
         get;
+        init;
     }
 
     public string Schema
     {
         get;
-    }
-
-    protected DatabaseObjectInfo(string table, string schema)
-    {
-        Table = table;
-        Schema = schema;
-    }
+        init;
+    } = "dbo";
 }

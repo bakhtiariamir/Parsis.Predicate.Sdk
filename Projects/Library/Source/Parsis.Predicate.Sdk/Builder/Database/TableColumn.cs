@@ -1,7 +1,7 @@
 ﻿using System.Data;
 
-namespace Parsis.Predicate.Sdk.Generator.Database;
-public class TableField
+namespace Parsis.Predicate.Sdk.Builder.Database;
+public class TableColumn
 {
     public string Name
     {
@@ -15,7 +15,7 @@ public class TableField
         init;
     }
 
-    public TableField(string name, SqlDbType type)
+    public TableColumn(string name, SqlDbType type)
     {
         Name = name;
         Type = type;

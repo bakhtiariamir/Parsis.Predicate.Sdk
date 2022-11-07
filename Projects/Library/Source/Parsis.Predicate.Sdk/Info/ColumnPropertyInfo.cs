@@ -4,7 +4,7 @@ using Parsis.Predicate.Sdk.DataType;
 
 namespace Parsis.Predicate.Sdk.Info;
 
-public class ColumnPropertyInfo<TProperty> : PropertyInfo, IColumnPropertyInfo
+public class ColumnPropertyInfo : PropertyInfo, IColumnPropertyInfo
 {
     public bool IsNullable
     {

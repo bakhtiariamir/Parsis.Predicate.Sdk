@@ -18,9 +18,9 @@ public static class ObjectAttributeHelper
 
 
 
-    private static string TableName<TObject>(this TObject type) where TObject : class => type.GetClassAttribute<TObject, TableAttribute, string>(item => item.Name) ?? string.Empty;
+    public static string TableName<TObject>(this TObject type) where TObject : class => type.GetClassAttribute<TObject, TableAttribute, string>(item => item.Name) ?? string.Empty;
 
-    private static string TableSchemaName<TObject>(this TObject type) where TObject : class => type.GetClassAttribute<TObject, TableAttribute, string>(item => item.Schema) ?? string.Empty;
+    public static string TableSchemaName<TObject>(this TObject type) where TObject : class => type.GetClassAttribute<TObject, TableAttribute, string>(item => item.Schema) ?? string.Empty;
 
     private static TValue? GetClassAttribute<TObject, TAttribute, TValue>(this TObject type, Func<TAttribute, TValue> valueSelector)
         where TAttribute : Attribute

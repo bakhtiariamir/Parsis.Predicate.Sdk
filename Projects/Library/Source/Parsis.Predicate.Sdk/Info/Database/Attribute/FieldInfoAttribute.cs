@@ -1,4 +1,5 @@
 ﻿using System.Data;
+using Parsis.Predicate.Sdk.DataType;
 
 namespace Parsis.Predicate.Sdk.ObjectInfo.Database.Attribute;
 public class FieldInfoAttribute : System.Attribute
@@ -9,7 +10,7 @@ public class FieldInfoAttribute : System.Attribute
         set;
     }
 
-    public SqlDbType DataType
+    public PropertyDataType DataType
     {
         get;
         set;
@@ -28,7 +29,7 @@ public class FieldInfoAttribute : System.Attribute
     }
 
 
-    public FieldInfoAttribute(string name, SqlDbType dataType, string @alias = "", string title = "")
+    public FieldInfoAttribute(string name, PropertyDataType dataType, string @alias = "", string title = "")
     {
         Name = name;
         DataType = dataType;

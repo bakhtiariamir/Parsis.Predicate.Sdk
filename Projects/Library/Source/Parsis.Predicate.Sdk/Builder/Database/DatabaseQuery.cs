@@ -1,14 +1,12 @@
 ﻿using Parsis.Predicate.Sdk.Contract;
 
-namespace Parsis.Predicate.Sdk.Generator.Database;
+namespace Parsis.Predicate.Sdk.Builder.Database;
 public abstract class DatabaseQuery<TObject> : BaseQuery<TObject>, IDatabaseQuery<TObject> where TObject : class
 {
-    protected DatabaseQueryContext DatabaseQueryContext
+    protected abstract DatabaseQueryContext DatabaseQueryContext
     {
         get;
     }
-
-    protected DatabaseQuery(DatabaseQueryContext databaseQueryContext) => DatabaseQueryContext = databaseQueryContext;
 
     public abstract Task GenerateColumn();
 
