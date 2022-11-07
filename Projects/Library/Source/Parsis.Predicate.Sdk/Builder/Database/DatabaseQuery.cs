@@ -3,7 +3,7 @@
 namespace Parsis.Predicate.Sdk.Builder.Database;
 public abstract class DatabaseQuery<TObject> : BaseQuery<TObject>, IDatabaseQuery<TObject> where TObject : class
 {
-    protected abstract DatabaseQueryContext DatabaseQueryContext
+    protected abstract DatabaseQueryContext<TObject> DatabaseQueryContext
     {
         get;
     }

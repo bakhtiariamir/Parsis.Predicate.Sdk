@@ -7,7 +7,7 @@ public class SqlServerCacheObjectInfo<TObject> : CacheObjectInfo<SqlServerObject
 {
     protected override ObjectInfoType ObjectInfoType => ObjectInfoType.DatabaseSqlServer;
 
-    public SqlServerCacheObjectInfo(IMemoryCache memoryCache, MemoryCacheEntryOptions cacheCacheEntryOptions) : base(memoryCache, cacheCacheEntryOptions)
+    public SqlServerCacheObjectInfo(IMemoryCache memoryCache) : base(memoryCache)
     {
     }
 }

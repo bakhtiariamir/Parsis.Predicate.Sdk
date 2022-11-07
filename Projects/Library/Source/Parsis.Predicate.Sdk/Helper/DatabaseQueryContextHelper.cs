@@ -6,10 +6,10 @@ using Parsis.Predicate.Sdk.Info;
 namespace Parsis.Predicate.Sdk.Helper;
 public static class DatabaseQueryContextHelper
 {
-    public static SqlServerQueryContext<TObject> GenerateSqlServerQueryContext<TObject>(this IMemoryCache cache, MemoryCacheEntryOptions options) where TObject : class
+    public static SqlServerQueryContext<TObject> GenerateSqlServerQueryContext<TObject>(this IMemoryCache cache) where TObject : class
     {
         var type = typeof(TObject);
-        var cacheObjectInfo = new SqlServerCacheObjectInfo<TObject>(cache, options);
+        var cacheObjectInfo = new SqlServerCacheObjectInfo<TObject>(cache);
         var objectInfo = cacheObjectInfo.GetObjectInfo();
         if (objectInfo == null)
         {

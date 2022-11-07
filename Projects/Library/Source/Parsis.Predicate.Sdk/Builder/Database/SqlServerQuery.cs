@@ -1,9 +1,16 @@
-﻿using Parsis.Predicate.Sdk.Helper;
+﻿using Microsoft.Extensions.Caching.Memory;
+using Parsis.Predicate.Sdk.Helper;
 
 namespace Parsis.Predicate.Sdk.Builder.Database;
 public class SqlServerQuery<TObject> : DatabaseQuery<TObject> where TObject : class
 {
-    protected override DatabaseQueryContext DatabaseQueryContext => DatabaseQueryContextHelper.GenerateSqlServerQueryContext(typeof(TObject));
+    private readonly IMemoryCache _memoryCache;
+    protected override DatabaseQueryContext<TObject> DatabaseQueryContext => DatabaseQueryContextHelper.GenerateSqlServerQueryContext<TObject>(_memoryCache);
+
+    public SqlServerQuery(IMemoryCache memoryCache)
+    {
+        _memoryCache = memoryCache;
+    }
 
     public override Task GenerateColumn()
     {

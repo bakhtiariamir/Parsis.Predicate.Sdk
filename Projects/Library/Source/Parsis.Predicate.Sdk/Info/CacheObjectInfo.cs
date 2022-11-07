@@ -12,10 +12,10 @@ public abstract class CacheObjectInfo<TObjectInfo, TObject> : ICacheObjectInfo<T
     {
         get;
     }
-    protected CacheObjectInfo(IMemoryCache memoryCache, MemoryCacheEntryOptions cacheCacheEntryOptions)
+    protected CacheObjectInfo(IMemoryCache memoryCache)
     {
         _memoryCache = memoryCache;
-        _cacheCacheEntryOptions = cacheCacheEntryOptions;
+        _cacheCacheEntryOptions = new MemoryCacheEntryOptions();
     }
 
 
